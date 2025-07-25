@@ -17,20 +17,30 @@ Este projeto implementa uma estrutura robusta de **automação de testes web** c
 ## 📁 Estrutura do Projeto
 BDDautomationPOM/
 ├── Base/
-│ └── startBrowser.py # Inicialização e controle do navegador
 │
+
+└── startBrowser.py # Inicialização e controle do navegador
+│
+
+
 ├── configFiles/
 │ ├── config.cfg # Configurações gerais (browser, URL, etc.)
 │ └── Elements.cfg # Mapeamento de elementos da interface
 │
+
+
 ├── Features/
 │ ├── Registration.feature # Feature file em Gherkin (ex: cadastro)
 │ ├── environment.py # Hooks do Behave (before_all, after_scenario)
 │ └── Steps/
 │ └── StepDefinition.py # Definições dos passos (Given, When, Then)
 │
+
+
 ├── Pages/
 │ └── RegistrationPage.py # Page Object da tela de registro
 │
+
+
 ├── Library/
 │ └── ConfigReader.py # Leitura dos arquivos .cfg
