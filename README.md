@@ -25,14 +25,18 @@ BDDautomationPOM/
 
 ├── configFiles/
 │ ├── config.cfg # Configurações gerais (browser, URL, etc.)
+
 │ └── Elements.cfg # Mapeamento de elementos da interface
 │
 
 
 ├── Features/
 │ ├── Registration.feature # Feature file em Gherkin (ex: cadastro)
+
 │ ├── environment.py # Hooks do Behave (before_all, after_scenario)
+
 │ └── Steps/
+
 │ └── StepDefinition.py # Definições dos passos (Given, When, Then)
 │
 
